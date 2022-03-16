@@ -7,7 +7,7 @@ y = int(input())
 z = int(input())
 n = int(input())
 
-# cood=[]
+# coord=[]
 
 # for i in range(x+1):
 #     # x = x + 1  --> not possible by compre
@@ -16,8 +16,8 @@ n = int(input())
 #         for k in range(z+1):
 #             # z = z + 1
 #             if i+j+k!=n:
-#                 cood.append([i,j,k])
+#                 coord.append([i,j,k])
 
-cood = [[i,j,k] for i in range(x+1) for j in range(y+1) for k in range(z+1) if i+j+k!=n]
+coord = [[i,j,k] for i in range(x+1) for j in range(y+1) for k in range(z+1) if i+j+k!=n]
     
-print(cood)
+print(coord)
