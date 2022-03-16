@@ -1,0 +1,121 @@
+>>>>> List 
+
+> i means index ---> for i in range(size):  OR for i in range(len(list)):
+> We have to use list[i] not i to access elements ---> for i in range(len(list)): 
+> i means item ---> "for i in list:"
+> // in (len(list)//2)
+__________________________________________________________________________________________
+1) Chk if item is present in list
+2) Count odd and even elements in list
+3) Find number of unique elements in list
+4) Cube elements in list using method and without
+5) Max element in list
+6) Remove duplicate elements in list
+7) Count number of words in sentence
+8) ***** Count and print duplicate item and how many times it is repeating  
+9) ***** Find index of an element in list 
+10) **** Reverse list using n/2 iterations
+11) Second max element of list
+12) **** Sum of digits of list ex. 21 = 2+1 = 3
+13) Swap last item of list with first / 2nd last with 2nd
+14) Max Nested list item from every nested list
+__________________________________________________________________________________________
+>>>>> List Comprehension
+
+> Can't append in comprehension
+
+> To print even nos using for loop
+even = [i for i in range(2,11,2)]
+print(even)
+
+> To access last character of string
+i[-1]
+
+> To reverse string str = ''
+str[::-1]
+
+> Walrus operator :=
+To calculate value of expression, assign that value to a variable in one line and reset variable value to og value, here 0
+ex. 
+sum = 0
+sumList = [sum := sum + i for i in [1,2,3]]
+
+> To calc sq of num
+i**2
+__________________________________________________________________________________________
+1) Max Nested list item from every nested list
+2) Split a string and store characters in list
+3) print even nos. from 1 to 10 
+4) Print nos from 1 to 50 which are divisible by 2 and 5
+5) Print odd and even nos from 0 to 10
+6) Print word in list that ends with b and has length > 2
+7) Reverse string
+8) Reverse items in list
+9) Sum of items in list
+10) Measure time taken to calculate square of list items using for loop vs list comprehension
+11) Concat string items in list into string
+__________________________________________________________________________________________
+>>>>> Dictionary
+
+Instead of 
+
+for k, v in dict.items():
+    print(k,v)
+
+we can also write
+
+for k in dict:
+    print(k,dict[k])
+__________________________________________________________________________________________
+1) Delete key
+2) Flatten dictionary without using method 
+3) List to dictionary
+4) Sum of values in list
+
+5) Count no. of digits, lowercase letters, uppercase letters in sentence &
+store count in  dictionary
+6) Sort keys of dictionary
+7) Sort values of dictionary
+8) Replace value in dictionary
+9) Reverse dictionary items
+10) Print duplicate words of a sentence 
+11) Create a dynamic nested dictionary with user input
+12) Print nested dictionary items in given format
+__________________________________________________________________________________________
+
+__________________________________________________________________________________________
+1) 1st Feb : 9:35 to 10:40
+2) 2nd Feb : 9:30 to 10:34
+3) 3rd Feb : 9:30 to 10:32
+__________________________________________________________________________________________
+4) 7th Feb : 9:31 to 10:30
+5) 8th Feb : 9:40 to 10:45
+6) 9th Feb : 9:35 to 10:53
+7) 10th Feb : 9:37 to 10:40
+8) 11th Feb : 9:45 to 10:45
+__________________________________________________________________________________________
+9) 15th Feb : 9:30 to 10:30
+10) 16th Feb : 9:45 to 10:45
+11) 18th Feb : 9:45 to 10:45
+12) 19th Feb : 9:30 to 10:30
+__________________________________________________________________________________________
+13) 23rd Feb, Wed : 10:00 to 11:00
+14) 24th Feb, Thurs : 9:30 to 10:30
+__________________________________________________________________________________________
+15) 7th Mar, Mon : 9:30 to 10:35   QuickReverseList : hw 
+16) 8th March, Tue : 9:30 to 10:30 
+17) 9th March, Wed : 9:45 to 10:45  hw : nestedDict3x 
+18) 11th March, Fri : 9:45 to 10:45  Discussed abt nestedDict3x, why in OG code wrong o/p was coming
+__________________________________________________________________________________________
+19) 16th March, Tue : 9:45 to 10:45
+Corrected : ListToString.py
+Did MaxNestedListCompre2.py (FUNCTIONS)
+Solved SuperNestedDict.py (Print each step to chk till where you got values)
+(First used type method to find datatype of value, then eliminated dict values of type string or int using if condition)
+hw : cuboid.py
+
+20) 17th March, Wed : 9:45 to 10:45
+cuboid.py,understood normal way, converted to compre
+Understood which programs can be converted to list comprehension
+DictToList.py , hw = conv to list compre
+__________________________________________________________________________________________

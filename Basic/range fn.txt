@@ -1,0 +1,55 @@
+>> The range() Function
+
+1) The range() function returns a sequence of numbers, 
+starting from 0 by default, increments by 1 (by default), 
+and ends at a specified number.
+
+for x in range(6):
+  print(x)
+
+
+O/P :
+0
+1
+2
+3
+4
+5
+
+2) The range() function defaults to 0 as a starting value, 
+to specify starting value : range(2, 6), 
+which means values from 2 to 6 (but not including 6):
+
+for x in range(2, 6):
+  print(x)
+
+O/P :
+2
+3
+4
+5
+
+3) The range() function defaults to increment the sequence by 1, 
+to specify the increment value : range(2, 30, 3):
+
+for x in range(2, 30, 3):
+  print(x)
+
+O/P :
+2
+5
+8
+11
+14
+17
+20
+23
+26
+29
+
+>> while vs for loop
+i = 0
+while(i<n):            for i in range(n):
+   sum += i               sum += i
+   i = i + 1              
+print(sum)                print(sum)
